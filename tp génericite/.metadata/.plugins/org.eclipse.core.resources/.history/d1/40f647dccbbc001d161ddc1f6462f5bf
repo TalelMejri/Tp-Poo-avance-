@@ -1,0 +1,25 @@
+
+public class Point<T> {
+	
+	private T abs;
+	private T ord;
+	
+	public T getAbs() {
+		return abs;
+	}
+	public void setAbs(T abs) {
+		this.abs = abs;
+	}
+	public T getOrd() {
+		return ord;
+	}
+	public void setOrd(T ord) {
+		this.ord = ord;
+	}
+	
+	public String toStrig() {
+		return this.ord+" "+this.abs;
+	}
+
+
+}

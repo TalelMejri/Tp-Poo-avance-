@@ -1,0 +1,6 @@
+
+public class CouleurRVB {
+	private int vert;
+	private int rouge;
+	private int bleu;
+}

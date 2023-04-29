@@ -1,0 +1,17 @@
+package Td;
+
+public class ErrModif {
+	private int error;
+	public ErrConst() {
+		super();
+	}
+	public ErrConst(String msg) {
+		super(msg);
+	}
+	public int getError() {
+		return error;
+	}
+	public void setError(int error) {
+		this.error = error;
+	}
+}

@@ -1,0 +1,7 @@
+package Td;
+
+public class ErrConst  extends Exception{
+	public ErrConst() {
+		
+	}
+}

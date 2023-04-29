@@ -1,0 +1,6 @@
+
+public class Point<T> {
+	public Point() {
+		// TODO Auto-generated constructor stub
+	}
+}

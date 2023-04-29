@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Iterable"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="ex1.PileTab"/>
+    <fullyQualifiedTypeName name="ex2.IPile"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="ex2.CPile"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ex3.TacheElementaire"/>
+    <fullyQualifiedTypeName name="ex3.Tache"/>
+    <fullyQualifiedTypeName name="TP6.Employé"/>
+    <fullyQualifiedTypeName name="TP6.Vendeur"/>
+</qualifiedTypeNameHistroy>

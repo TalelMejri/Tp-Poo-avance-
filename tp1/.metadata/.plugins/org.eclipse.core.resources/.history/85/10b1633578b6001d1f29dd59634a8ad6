@@ -1,0 +1,10 @@
+package Td1Ex3;
+
+public class NameTooLongException extends Exception {
+	public NameTooLongException() {
+		
+	}
+	public NameTooLongException(String msg) {
+		
+	}
+}

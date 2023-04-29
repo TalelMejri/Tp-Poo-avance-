@@ -1,0 +1,8 @@
+package Td;
+
+public class EntNat {
+   private int x;
+   EntNat(){
+	   
+   }
+}

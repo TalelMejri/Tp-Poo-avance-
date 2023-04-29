@@ -1,0 +1,12 @@
+insert into BookTable values(123,'JAVA',2,'JEAN JACQUE');
+insert into BookTable values(456,'C++',3,'FRANCOIS HOLLANDE');
+insert into BookTable values(145,'HTML5',1,'GEORGE MAECHEL');
+insert into BookTable values(256,'CSS',2,'JONY EDIT');
+insert into BookTable values(365,'ORACLE',3,'WILL SMITH');
+insert into BookTable values(254,'MYSQL',1,'ALAIN SAVARY');
+insert into BookTable values(541,'C#',2,'CHARLE KIWI');
+insert into BookTable values(563,'TOEIC',3,'CYRIL DANGO');
+insert into BookTable values(547,'XML',2,'ALINE MAL');
+insert into BookTable values(569,'RESEAUX',1,'FADOUA KRIRA');
+insert into BookTable values(587,'TCP/IP',4,'SAN KRAWD');
+insert into BookTable values(589,'CLOUD COMPUTING',2,'FIND BINJ');

@@ -1,0 +1,8 @@
+package ex2;
+
+public class Noeud<T> {
+	
+		Object info;
+		Noeud suivant;
+		
+}

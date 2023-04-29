@@ -1,0 +1,9 @@
+
+public class CercleAvecRestriction<T extends Point> {
+ private int rayon;
+ private T p;
+ CercleAvecRestriction(int r, T p){
+	 rayon=r;
+	 
+ }
+}

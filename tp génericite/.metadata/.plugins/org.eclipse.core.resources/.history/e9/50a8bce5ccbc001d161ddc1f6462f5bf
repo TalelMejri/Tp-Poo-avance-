@@ -1,0 +1,16 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		Point<Integer> p1=new Point<>(4,5);
+		Point<Double> p2=new Point<>(4.5,5.2);
+		Point<String> p3=new Point<>("Talel","Mejri");
+		System.out.println(p1);
+		System.out.println(p2);
+		System.out.println(p3);
+		PointColoréNG p4=new PointColoréNG(4, 5,"red");
+		System.out.println(p4);
+
+	}
+
+}

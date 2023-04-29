@@ -1,0 +1,7 @@
+package ex4;
+
+public class Fiche {
+   String nom;
+   int numero;
+   String adresse;
+}

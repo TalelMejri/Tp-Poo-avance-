@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\asus\Desktop\java sem2\tp génericite\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2647252095.index
+1316084951.index

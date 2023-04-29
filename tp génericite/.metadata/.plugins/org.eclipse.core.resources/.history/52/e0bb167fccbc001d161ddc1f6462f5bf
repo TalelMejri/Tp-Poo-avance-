@@ -1,0 +1,8 @@
+
+public class PointColoréNG extends Point<T> {
+   private String color;
+   public PointColoréNG(T abs,T ord,String color) {
+	   super(abs,ord);
+	   this.color=color;
+   }
+}

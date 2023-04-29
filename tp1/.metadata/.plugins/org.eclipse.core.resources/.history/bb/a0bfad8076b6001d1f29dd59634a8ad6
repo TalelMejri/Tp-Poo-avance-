@@ -1,0 +1,8 @@
+package Td;
+
+public class test {
+	
+	
+	EntNat e=new EntNat(2);
+	
+}

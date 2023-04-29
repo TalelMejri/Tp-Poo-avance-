@@ -1,0 +1,4 @@
+
+public class Cercle<T> {
+ private int rayon;
+}

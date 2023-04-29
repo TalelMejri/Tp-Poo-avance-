@@ -1,0 +1,7 @@
+
+public class PointColoré<T,T2> extends Point<T> {
+	private T2 color;
+	PointColoré(T abs,T ord,T2 color){
+		
+	}
+}

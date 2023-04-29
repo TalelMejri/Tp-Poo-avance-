@@ -1,0 +1,22 @@
+package TP6;
+public class Test {
+
+	public static void main(String[] args) {
+	  Entreprise e=new Entreprise("Bizo");
+	  Salarié s=new Salarié(0, null, 0);
+	  e.embaucherSalarie(new Employé(2005,"saif",15,15.4,16.8));
+	  e.embaucherSalarie(new Vendeur(2006, "badis", 10,12.6,7.9));
+	  e.embaucherSalarie(new Salarié(10, "talel", 12));
+	  e.embaucherSalarie(s);
+	  e.afficherSalariés();
+	  e.licencierSalarie(s);
+	  e.afficherSalariés();
+	  System.out.println("totale salaire "+e.totalSalaire());
+	  //e.trieSalarieParNom();
+	  //e.trieSalariéParAncnneté();
+	  e.trieSalariéParSalaire();
+	  e.afficherSalariés();
+	  
+	}
+
+}

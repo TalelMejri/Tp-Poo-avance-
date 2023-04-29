@@ -1,0 +1,7 @@
+package ex4;
+
+import java.util.HashMap;
+
+public class Annuaire {
+	HashMap<String , Fiche> tab;
+}

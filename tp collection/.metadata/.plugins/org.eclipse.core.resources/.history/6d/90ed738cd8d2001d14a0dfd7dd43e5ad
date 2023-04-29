@@ -1,0 +1,8 @@
+package TP6;
+
+import java.util.ArrayList;
+
+public class Entreprise {
+  private String nom;
+  private ArrayList<Salatié>
+}

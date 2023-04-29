@@ -1,0 +1,7 @@
+
+public class Point<T> {
+	
+	public Point() {
+		
+	}
+}

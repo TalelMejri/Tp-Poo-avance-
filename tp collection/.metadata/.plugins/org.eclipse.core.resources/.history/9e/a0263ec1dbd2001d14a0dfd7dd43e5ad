@@ -1,0 +1,13 @@
+package TP6;
+
+public class Test {
+
+	public static void main(String[] args) {
+	  Entreprise e=new Entreprise("Bizo");
+	  e.embaucherSalarie(new Salarié(15, "talel", 12));
+	  e.embaucherSalarie(new Salarié(17, "mejri", 13));
+	  e.embaucherSalarie(new Salarié(18, "badis", 14));
+	  e.afficherSalariés();
+	}
+
+}

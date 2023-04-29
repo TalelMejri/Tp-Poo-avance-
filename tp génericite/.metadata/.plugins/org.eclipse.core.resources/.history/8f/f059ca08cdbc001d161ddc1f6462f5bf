@@ -1,0 +1,4 @@
+
+public class PointColoré<T,T2> extends Point<T> {
+	
+}

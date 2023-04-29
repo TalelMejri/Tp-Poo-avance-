@@ -1,0 +1,10 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		Point<Integer> p1=new Point<>(4,5);
+		
+
+	}
+
+}

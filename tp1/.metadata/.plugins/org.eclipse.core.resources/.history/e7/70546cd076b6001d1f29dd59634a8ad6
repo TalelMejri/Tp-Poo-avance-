@@ -1,0 +1,13 @@
+package Td;
+
+public class test {
+	public static void main(String [] args) {
+	try {
+		EntNat e=new EntNat(-2);
+		System.out.println(e.getX());
+	}catch(ErrConst e) {
+		System.out.println(e.getError()+"negative");
+	}
+	}
+	
+}

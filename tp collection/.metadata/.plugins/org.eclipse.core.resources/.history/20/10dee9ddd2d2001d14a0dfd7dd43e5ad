@@ -1,0 +1,12 @@
+package ex4;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Annuaire a=new Annuaire();
+		a.addContact(new Fiche("talel"));
+		a.addContact("mejri");
+		
+	}	
+
+}

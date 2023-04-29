@@ -1,0 +1,13 @@
+
+public class PointColoréNG extends Point<Integr> {
+   private String color;
+   
+   public PointColoréNG(T abs,T ord,String color) {
+	   super(abs,ord);
+	   this.color=color;
+   }
+   
+   public String toString() {
+	   return super.toString()+" "+this.color;
+   }
+}

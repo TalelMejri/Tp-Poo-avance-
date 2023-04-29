@@ -1,0 +1,22 @@
+package Td;
+
+public class test {
+	public static void main(String [] args) {
+	try {
+		EntNat e=new EntNat(4);
+		e.setX(1);
+		e.decremente();
+		e.setX(5);
+		System.out.println("Bienenenen");
+	}catch(ErrConst e) {
+		System.err.println(e.getError()+" negative");
+	}catch(ErrModif e) {
+		System.err.println(e.getMessage());
+	}
+	
+	
+	
+
+	}
+	
+}

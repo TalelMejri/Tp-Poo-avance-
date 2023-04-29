@@ -1,0 +1,43 @@
+package Td1Ex3;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class Projet {
+	private String nom_sujet;
+	private String nom_projet;
+	private int duree;
+	
+	public Projet() throws NameTooLongException,WrongDurationException,InputMismatchException{
+		this.readProjet();
+	}
+	
+	public int readInt() throws WrongDurationException,InputMismatchException{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Donner duree");
+		int a=sc.nextInt();
+		if(a<0) {
+			throw new WrongDurationException("");
+		}
+		return a;
+	}
+	
+	public String readString(String name) throws NameTooLongException{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Donner");
+		String a=sc.next();
+		if(a.length()>20) {
+			throw new NameTooLongException();
+		}
+		return a;
+	}
+	
+	public void readProjet() throws NameTooLongException,WrongDurationException,InputMismatchException {
+				this.duree=this.readInt();
+				this.nom_projet=this.readString("projet");
+				this.nom_sujet=this.readString("sujet");
+				System.out.println(this.duree+" "+this.nom_projet+" "+this.nom_sujet);
+		}
+	}
+
+

@@ -1,0 +1,11 @@
+
+public class Point<T> {
+	
+	private T bs;
+	
+	public Point() {
+		
+	}
+	
+
+}

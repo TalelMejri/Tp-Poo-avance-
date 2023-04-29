@@ -1,0 +1,16 @@
+package Td;
+
+public class EntNat {
+   private int x;
+   EntNat(){
+	   
+   }
+public int getX() {
+	return x;
+}
+public void setX(int x) throws ErrModif {
+	this.x = x;
+}
+   
+   
+}

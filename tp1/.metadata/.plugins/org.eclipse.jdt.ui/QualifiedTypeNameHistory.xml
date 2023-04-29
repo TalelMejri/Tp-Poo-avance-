@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.zip.InflaterOutputStream"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="ex3.adresseIP"/>
+    <fullyQualifiedTypeName name="test.exceptionTest"/>
+    <fullyQualifiedTypeName name="ex3.ExceptionAdrIP"/>
+    <fullyQualifiedTypeName name="ex4.WrongLoginException"/>
+    <fullyQualifiedTypeName name="ex4.WrongInputLength"/>
+    <fullyQualifiedTypeName name="ex4.WrongPwdException"/>
+    <fullyQualifiedTypeName name="ex4.Authentification"/>
+    <fullyQualifiedTypeName name="Td.EntNat"/>
+    <fullyQualifiedTypeName name="Td.ErrConst"/>
+    <fullyQualifiedTypeName name="Td.ErrModif"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="Td1Ex3.Projet"/>
+    <fullyQualifiedTypeName name="Td1Ex3.NameTooLongException"/>
+    <fullyQualifiedTypeName name="Td1Ex3.WrongDurationException"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+</qualifiedTypeNameHistroy>

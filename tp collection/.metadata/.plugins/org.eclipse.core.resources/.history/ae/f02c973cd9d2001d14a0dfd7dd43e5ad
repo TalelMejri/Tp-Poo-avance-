@@ -1,0 +1,22 @@
+package TP6;
+
+import java.util.ArrayList;
+
+public class Entreprise {
+  private String nom;
+  private ArrayList<Salarié> tabsalaire;
+  
+  Entreprise(String nom){
+	  this.tabsalaire=new ArrayList<>();
+	  this.nom=nom;
+  }
+  
+  public void embaucherSalarie(Salarié s) {
+	  tabsalaire.add(s);
+  }
+  
+  public void licencierSalarie(Salarié s) {
+	  tabsalaire.remove(s)
+  }
+  
+}

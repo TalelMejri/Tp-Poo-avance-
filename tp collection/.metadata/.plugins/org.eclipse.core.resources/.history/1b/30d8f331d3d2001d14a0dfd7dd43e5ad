@@ -1,0 +1,42 @@
+package ex4;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class Annuaire {
+	HashMap<String , Fiche> tab;
+	public Annuaire() {
+		HashMap<String , Fiche> tab=new HashMap<>();
+	}
+	
+	public int getNBconttacts() {
+		return this.tab.size();
+	}
+	
+	public void addContact(Fiche f) {
+		this.tab.put(f.getNom(), f);
+	}
+	
+	public void addContact(String s, int n, String a) {
+		Fiche newfiche=new Fiche(s,n,a);
+		this.tab.put(a, newfiche);
+	}
+	public void addContact(String s) {
+		Fiche newfiche=new Fiche(s);
+		this.tab.put(s, newfiche);
+	}
+	public int getnumero(String name) {
+		return this.tab.get(name).getNumero();
+	}
+	public void affiche() {
+		/*for(Entry<String,Fiche> entree : this.tab.entrySet()) {
+			
+		}*/
+		Set<String> s=this.tab.keySet();
+		Iterator<String> it=s.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+	}
+}
